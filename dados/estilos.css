@@ -1,0 +1,97 @@
+.container {
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.8s;
+}
+
+.container:hover {
+	transform: rotateY(180deg);
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.texto {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotateY(180deg);
+	text-align: center;
+	background-color: #d1ab2f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+  }
+  
+  li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+	background-color: #555;
+	color: white;
+  }
+		  
+.izquierda{
+	width: 20%;
+	height: 100%;
+	background-color: #ffffff00;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.derecha{
+	width: 79%;
+	height: 100%;
+	background-color: #ffffff00;
+	display: inline-block;
+}
+
+.menu{
+	background-color: rgba(255, 251, 251, 0);
+}
+
+#image {
+	width: 80%;
+}
+
+.pos{
+	margin-bottom: 80px !important;
+}
+
+.mayor{
+	background-color: #d1ab2f;
+}
+
+.descripcion{
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-style: italic;
+}
+
+.titulo{
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-style: italic;
+}
+
+.botonespacio{
+	padding: 20px;
+}
