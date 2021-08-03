@@ -62,7 +62,7 @@
                     <input type="button" class="button is-link" value="next" id="adelante" onClick="changeImage(-1)">
                 </form>
 
-                <form class='botonespacio'>
+                <form class='botonespacioback'>
                     <input type="button" class="button is-link" value="back" id="atras" onClick="changeImage(1)">
                 </form>
             </div>
@@ -88,8 +88,26 @@
 <style>
     @media (max-width:700px){            
         .izquierda {
-            display: block;
-        }
+                display: block;
+                text-align: justify;
+                width: 100%;
+            }
+          
+            .titulo{
+                text-align: center;
+            }
+
+            .botonespacio{
+                width: 50%;
+                margin-left: 50%;
+                margin-right: 50%;
+            }
+
+            .botonespacioback{
+                width: 50%;
+                margin-left: 50%;
+                margin-right: 50%;
+            }
     }
 </style>
 
